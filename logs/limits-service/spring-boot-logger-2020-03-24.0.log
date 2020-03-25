@@ -1,0 +1,220 @@
+2020-03-24 20:47:58,610 INFO org.springframework.cloud.config.client.ConfigServicePropertySourceLocator [main] Fetching config from server at : http://localhost:8888
+2020-03-24 20:47:58,916 WARN org.springframework.cloud.config.client.ConfigServicePropertySourceLocator [main] Could not locate PropertySource: None of labels [] found
+2020-03-24 20:47:58,918 INFO org.springframework.boot.SpringApplication [main] The following profiles are active: dev
+2020-03-24 20:47:59,926 INFO org.springframework.cloud.context.scope.GenericScope [main] BeanFactory id=0656b545-dcc2-355c-9742-df8d136167e6
+2020-03-24 20:48:00,598 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat initialized with port(s): 8080 (http)
+2020-03-24 20:48:00,607 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing ProtocolHandler ["http-nio-8080"]
+2020-03-24 20:48:00,608 INFO org.apache.juli.logging.DirectJDKLog [main] Starting service [Tomcat]
+2020-03-24 20:48:00,608 INFO org.apache.juli.logging.DirectJDKLog [main] Starting Servlet engine: [Apache Tomcat/9.0.31]
+2020-03-24 20:48:00,747 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing Spring embedded WebApplicationContext
+2020-03-24 20:48:00,748 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 1812 ms
+2020-03-24 20:48:01,158 INFO org.springframework.scheduling.concurrent.ExecutorConfigurationSupport [main] Initializing ExecutorService 'applicationTaskExecutor'
+2020-03-24 20:48:01,718 INFO org.springframework.boot.actuate.endpoint.web.EndpointLinksResolver [main] Exposing 15 endpoint(s) beneath base path '/actuator'
+2020-03-24 20:48:01,771 INFO org.apache.juli.logging.DirectJDKLog [main] Starting ProtocolHandler ["http-nio-8080"]
+2020-03-24 20:48:01,981 INFO org.apache.juli.logging.DirectJDKLog [main] Pausing ProtocolHandler ["http-nio-8080"]
+2020-03-24 20:48:01,981 INFO org.apache.juli.logging.DirectJDKLog [main] Stopping service [Tomcat]
+2020-03-24 20:48:01,987 INFO org.apache.juli.logging.DirectJDKLog [main] Stopping ProtocolHandler ["http-nio-8080"]
+2020-03-24 20:48:01,988 INFO org.apache.juli.logging.DirectJDKLog [main] Destroying ProtocolHandler ["http-nio-8080"]
+2020-03-24 20:48:01,991 INFO org.springframework.boot.autoconfigure.logging.ConditionEvaluationReportLoggingListener [main] 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2020-03-24 20:48:01,993 WARN org.springframework.beans.factory.support.DisposableBeanAdapter [main] Invocation of destroy method failed on bean with name 'tomcatMetricsBinder': java.lang.NullPointerException
+2020-03-24 20:48:01,995 INFO org.springframework.scheduling.concurrent.ExecutorConfigurationSupport [main] Shutting down ExecutorService 'applicationTaskExecutor'
+2020-03-24 20:48:02,002 ERROR org.springframework.boot.diagnostics.LoggingFailureAnalysisReporter [main] 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Web server failed to start. Port 8080 was already in use.
+
+Action:
+
+Identify and stop the process that's listening on port 8080 or configure this application to listen on another port.
+
+2020-03-24 20:52:27,895 INFO org.springframework.cloud.config.client.ConfigServicePropertySourceLocator [main] Fetching config from server at : http://localhost:8888
+2020-03-24 20:52:30,022 INFO org.springframework.cloud.config.client.ConfigServicePropertySourceLocator [main] Connect Timeout Exception on Url - http://localhost:8888. Will be trying the next url if available
+2020-03-24 20:52:30,023 WARN org.springframework.cloud.config.client.ConfigServicePropertySourceLocator [main] Could not locate PropertySource: I/O error on GET request for "http://localhost:8888/limits-service/default": Connection refused: no further information; nested exception is java.net.ConnectException: Connection refused: no further information
+2020-03-24 20:52:30,030 INFO org.springframework.boot.SpringApplication [main] The following profiles are active: dev
+2020-03-24 20:52:30,755 INFO org.springframework.cloud.context.scope.GenericScope [main] BeanFactory id=0656b545-dcc2-355c-9742-df8d136167e6
+2020-03-24 20:52:31,194 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat initialized with port(s): 8080 (http)
+2020-03-24 20:52:31,210 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing ProtocolHandler ["http-nio-8080"]
+2020-03-24 20:52:31,210 INFO org.apache.juli.logging.DirectJDKLog [main] Starting service [Tomcat]
+2020-03-24 20:52:31,212 INFO org.apache.juli.logging.DirectJDKLog [main] Starting Servlet engine: [Apache Tomcat/9.0.31]
+2020-03-24 20:52:31,320 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing Spring embedded WebApplicationContext
+2020-03-24 20:52:31,320 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 1260 ms
+2020-03-24 20:52:31,662 INFO org.springframework.scheduling.concurrent.ExecutorConfigurationSupport [main] Initializing ExecutorService 'applicationTaskExecutor'
+2020-03-24 20:52:32,146 INFO org.springframework.boot.actuate.endpoint.web.EndpointLinksResolver [main] Exposing 15 endpoint(s) beneath base path '/actuator'
+2020-03-24 20:52:32,182 INFO org.apache.juli.logging.DirectJDKLog [main] Starting ProtocolHandler ["http-nio-8080"]
+2020-03-24 20:52:32,359 INFO org.apache.juli.logging.DirectJDKLog [main] Pausing ProtocolHandler ["http-nio-8080"]
+2020-03-24 20:52:32,359 INFO org.apache.juli.logging.DirectJDKLog [main] Stopping service [Tomcat]
+2020-03-24 20:52:32,365 INFO org.apache.juli.logging.DirectJDKLog [main] Stopping ProtocolHandler ["http-nio-8080"]
+2020-03-24 20:52:32,365 INFO org.apache.juli.logging.DirectJDKLog [main] Destroying ProtocolHandler ["http-nio-8080"]
+2020-03-24 20:52:32,372 INFO org.springframework.boot.autoconfigure.logging.ConditionEvaluationReportLoggingListener [main] 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2020-03-24 20:52:32,375 WARN org.springframework.beans.factory.support.DisposableBeanAdapter [main] Invocation of destroy method failed on bean with name 'tomcatMetricsBinder': java.lang.NullPointerException
+2020-03-24 20:52:32,376 INFO org.springframework.scheduling.concurrent.ExecutorConfigurationSupport [main] Shutting down ExecutorService 'applicationTaskExecutor'
+2020-03-24 20:52:32,380 ERROR org.springframework.boot.diagnostics.LoggingFailureAnalysisReporter [main] 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Web server failed to start. Port 8080 was already in use.
+
+Action:
+
+Identify and stop the process that's listening on port 8080 or configure this application to listen on another port.
+
+2020-03-24 20:56:22,737 INFO org.springframework.cloud.config.client.ConfigServicePropertySourceLocator [main] Fetching config from server at : http://localhost:8888
+2020-03-24 20:56:22,970 WARN org.springframework.cloud.config.client.ConfigServicePropertySourceLocator [main] Could not locate PropertySource: None of labels [] found
+2020-03-24 20:56:22,972 INFO org.springframework.boot.SpringApplication [main] The following profiles are active: dev
+2020-03-24 20:56:23,700 INFO org.springframework.cloud.context.scope.GenericScope [main] BeanFactory id=0656b545-dcc2-355c-9742-df8d136167e6
+2020-03-24 20:56:24,202 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat initialized with port(s): 8080 (http)
+2020-03-24 20:56:24,213 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing ProtocolHandler ["http-nio-8080"]
+2020-03-24 20:56:24,213 INFO org.apache.juli.logging.DirectJDKLog [main] Starting service [Tomcat]
+2020-03-24 20:56:24,213 INFO org.apache.juli.logging.DirectJDKLog [main] Starting Servlet engine: [Apache Tomcat/9.0.31]
+2020-03-24 20:56:24,340 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing Spring embedded WebApplicationContext
+2020-03-24 20:56:24,341 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 1356 ms
+2020-03-24 20:56:24,721 INFO org.springframework.scheduling.concurrent.ExecutorConfigurationSupport [main] Initializing ExecutorService 'applicationTaskExecutor'
+2020-03-24 20:56:25,279 INFO org.springframework.boot.actuate.endpoint.web.EndpointLinksResolver [main] Exposing 15 endpoint(s) beneath base path '/actuator'
+2020-03-24 20:56:25,327 INFO org.apache.juli.logging.DirectJDKLog [main] Starting ProtocolHandler ["http-nio-8080"]
+2020-03-24 20:56:25,538 INFO org.apache.juli.logging.DirectJDKLog [main] Pausing ProtocolHandler ["http-nio-8080"]
+2020-03-24 20:56:25,538 INFO org.apache.juli.logging.DirectJDKLog [main] Stopping service [Tomcat]
+2020-03-24 20:56:25,544 INFO org.apache.juli.logging.DirectJDKLog [main] Stopping ProtocolHandler ["http-nio-8080"]
+2020-03-24 20:56:25,545 INFO org.apache.juli.logging.DirectJDKLog [main] Destroying ProtocolHandler ["http-nio-8080"]
+2020-03-24 20:56:25,547 INFO org.springframework.boot.autoconfigure.logging.ConditionEvaluationReportLoggingListener [main] 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2020-03-24 20:56:25,550 WARN org.springframework.beans.factory.support.DisposableBeanAdapter [main] Invocation of destroy method failed on bean with name 'tomcatMetricsBinder': java.lang.NullPointerException
+2020-03-24 20:56:25,551 INFO org.springframework.scheduling.concurrent.ExecutorConfigurationSupport [main] Shutting down ExecutorService 'applicationTaskExecutor'
+2020-03-24 20:56:25,557 ERROR org.springframework.boot.diagnostics.LoggingFailureAnalysisReporter [main] 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Web server failed to start. Port 8080 was already in use.
+
+Action:
+
+Identify and stop the process that's listening on port 8080 or configure this application to listen on another port.
+
+2020-03-24 21:00:54,357 INFO org.springframework.cloud.config.client.ConfigServicePropertySourceLocator [main] Fetching config from server at : http://localhost:8888
+2020-03-24 21:01:09,729 INFO org.springframework.cloud.config.client.ConfigServicePropertySourceLocator [main] Located environment: name=limits-service, profiles=[default], label=null, version=73228523e15c349d1c4859cbfcc5122a37e74aa2, state=null
+2020-03-24 21:01:09,730 INFO org.springframework.cloud.bootstrap.config.PropertySourceBootstrapConfiguration [main] Located property source: [BootstrapPropertySource {name='bootstrapProperties-configClient'}]
+2020-03-24 21:01:09,737 INFO org.springframework.boot.SpringApplication [main] The following profiles are active: dev
+2020-03-24 21:01:10,612 INFO org.springframework.cloud.context.scope.GenericScope [main] BeanFactory id=0656b545-dcc2-355c-9742-df8d136167e6
+2020-03-24 21:01:11,149 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat initialized with port(s): 8080 (http)
+2020-03-24 21:01:11,157 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing ProtocolHandler ["http-nio-8080"]
+2020-03-24 21:01:11,158 INFO org.apache.juli.logging.DirectJDKLog [main] Starting service [Tomcat]
+2020-03-24 21:01:11,158 INFO org.apache.juli.logging.DirectJDKLog [main] Starting Servlet engine: [Apache Tomcat/9.0.31]
+2020-03-24 21:01:11,331 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing Spring embedded WebApplicationContext
+2020-03-24 21:01:11,332 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 1574 ms
+2020-03-24 21:01:11,707 INFO org.springframework.scheduling.concurrent.ExecutorConfigurationSupport [main] Initializing ExecutorService 'applicationTaskExecutor'
+2020-03-24 21:01:12,197 INFO org.springframework.boot.actuate.endpoint.web.EndpointLinksResolver [main] Exposing 15 endpoint(s) beneath base path '/actuator'
+2020-03-24 21:01:12,245 INFO org.apache.juli.logging.DirectJDKLog [main] Starting ProtocolHandler ["http-nio-8080"]
+2020-03-24 21:01:12,424 INFO org.apache.juli.logging.DirectJDKLog [main] Pausing ProtocolHandler ["http-nio-8080"]
+2020-03-24 21:01:12,424 INFO org.apache.juli.logging.DirectJDKLog [main] Stopping service [Tomcat]
+2020-03-24 21:01:12,429 INFO org.apache.juli.logging.DirectJDKLog [main] Stopping ProtocolHandler ["http-nio-8080"]
+2020-03-24 21:01:12,429 INFO org.apache.juli.logging.DirectJDKLog [main] Destroying ProtocolHandler ["http-nio-8080"]
+2020-03-24 21:01:12,436 INFO org.springframework.boot.autoconfigure.logging.ConditionEvaluationReportLoggingListener [main] 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2020-03-24 21:01:12,438 WARN org.springframework.beans.factory.support.DisposableBeanAdapter [main] Invocation of destroy method failed on bean with name 'tomcatMetricsBinder': java.lang.NullPointerException
+2020-03-24 21:01:12,438 INFO org.springframework.scheduling.concurrent.ExecutorConfigurationSupport [main] Shutting down ExecutorService 'applicationTaskExecutor'
+2020-03-24 21:01:12,442 ERROR org.springframework.boot.diagnostics.LoggingFailureAnalysisReporter [main] 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Web server failed to start. Port 8080 was already in use.
+
+Action:
+
+Identify and stop the process that's listening on port 8080 or configure this application to listen on another port.
+
+2020-03-24 21:51:11,899 INFO org.springframework.cloud.config.client.ConfigServicePropertySourceLocator [main] Fetching config from server at : http://localhost:8888
+2020-03-24 21:51:27,239 INFO org.springframework.cloud.config.client.ConfigServicePropertySourceLocator [main] Located environment: name=limits-service, profiles=[default], label=null, version=73228523e15c349d1c4859cbfcc5122a37e74aa2, state=null
+2020-03-24 21:51:27,240 INFO org.springframework.cloud.bootstrap.config.PropertySourceBootstrapConfiguration [main] Located property source: [BootstrapPropertySource {name='bootstrapProperties-configClient'}]
+2020-03-24 21:51:27,248 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2020-03-24 21:51:28,185 INFO org.springframework.cloud.context.scope.GenericScope [main] BeanFactory id=0656b545-dcc2-355c-9742-df8d136167e6
+2020-03-24 21:51:28,772 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat initialized with port(s): 8080 (http)
+2020-03-24 21:51:28,782 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing ProtocolHandler ["http-nio-8080"]
+2020-03-24 21:51:28,783 INFO org.apache.juli.logging.DirectJDKLog [main] Starting service [Tomcat]
+2020-03-24 21:51:28,783 INFO org.apache.juli.logging.DirectJDKLog [main] Starting Servlet engine: [Apache Tomcat/9.0.31]
+2020-03-24 21:51:28,954 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing Spring embedded WebApplicationContext
+2020-03-24 21:51:28,955 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 1687 ms
+2020-03-24 21:51:29,332 INFO org.springframework.scheduling.concurrent.ExecutorConfigurationSupport [main] Initializing ExecutorService 'applicationTaskExecutor'
+2020-03-24 21:51:29,907 INFO org.springframework.boot.actuate.endpoint.web.EndpointLinksResolver [main] Exposing 15 endpoint(s) beneath base path '/actuator'
+2020-03-24 21:51:29,946 INFO org.apache.juli.logging.DirectJDKLog [main] Starting ProtocolHandler ["http-nio-8080"]
+2020-03-24 21:51:30,147 INFO org.apache.juli.logging.DirectJDKLog [main] Pausing ProtocolHandler ["http-nio-8080"]
+2020-03-24 21:51:30,149 INFO org.apache.juli.logging.DirectJDKLog [main] Stopping service [Tomcat]
+2020-03-24 21:51:30,155 INFO org.apache.juli.logging.DirectJDKLog [main] Stopping ProtocolHandler ["http-nio-8080"]
+2020-03-24 21:51:30,155 INFO org.apache.juli.logging.DirectJDKLog [main] Destroying ProtocolHandler ["http-nio-8080"]
+2020-03-24 21:51:30,157 INFO org.springframework.boot.autoconfigure.logging.ConditionEvaluationReportLoggingListener [main] 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2020-03-24 21:51:30,159 WARN org.springframework.beans.factory.support.DisposableBeanAdapter [main] Invocation of destroy method failed on bean with name 'tomcatMetricsBinder': java.lang.NullPointerException
+2020-03-24 21:51:30,160 INFO org.springframework.scheduling.concurrent.ExecutorConfigurationSupport [main] Shutting down ExecutorService 'applicationTaskExecutor'
+2020-03-24 21:51:30,164 ERROR org.springframework.boot.diagnostics.LoggingFailureAnalysisReporter [main] 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Web server failed to start. Port 8080 was already in use.
+
+Action:
+
+Identify and stop the process that's listening on port 8080 or configure this application to listen on another port.
+
+2020-03-24 22:06:13,407 INFO org.springframework.cloud.config.client.ConfigServicePropertySourceLocator [main] Fetching config from server at : http://localhost:8888
+2020-03-24 22:06:23,471 INFO org.springframework.cloud.config.client.ConfigServicePropertySourceLocator [main] Located environment: name=limits-service, profiles=[default], label=null, version=73228523e15c349d1c4859cbfcc5122a37e74aa2, state=null
+2020-03-24 22:06:23,472 INFO org.springframework.cloud.bootstrap.config.PropertySourceBootstrapConfiguration [main] Located property source: [BootstrapPropertySource {name='bootstrapProperties-configClient'}]
+2020-03-24 22:06:23,479 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2020-03-24 22:06:24,338 INFO org.springframework.cloud.context.scope.GenericScope [main] BeanFactory id=0656b545-dcc2-355c-9742-df8d136167e6
+2020-03-24 22:06:24,834 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat initialized with port(s): 8080 (http)
+2020-03-24 22:06:24,844 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing ProtocolHandler ["http-nio-8080"]
+2020-03-24 22:06:24,845 INFO org.apache.juli.logging.DirectJDKLog [main] Starting service [Tomcat]
+2020-03-24 22:06:24,845 INFO org.apache.juli.logging.DirectJDKLog [main] Starting Servlet engine: [Apache Tomcat/9.0.31]
+2020-03-24 22:06:25,011 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing Spring embedded WebApplicationContext
+2020-03-24 22:06:25,011 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 1513 ms
+2020-03-24 22:06:25,374 INFO org.springframework.scheduling.concurrent.ExecutorConfigurationSupport [main] Initializing ExecutorService 'applicationTaskExecutor'
+2020-03-24 22:06:25,872 INFO org.springframework.boot.actuate.endpoint.web.EndpointLinksResolver [main] Exposing 15 endpoint(s) beneath base path '/actuator'
+2020-03-24 22:06:25,910 INFO org.apache.juli.logging.DirectJDKLog [main] Starting ProtocolHandler ["http-nio-8080"]
+2020-03-24 22:06:26,091 INFO org.apache.juli.logging.DirectJDKLog [main] Pausing ProtocolHandler ["http-nio-8080"]
+2020-03-24 22:06:26,092 INFO org.apache.juli.logging.DirectJDKLog [main] Stopping service [Tomcat]
+2020-03-24 22:06:26,097 INFO org.apache.juli.logging.DirectJDKLog [main] Stopping ProtocolHandler ["http-nio-8080"]
+2020-03-24 22:06:26,098 INFO org.apache.juli.logging.DirectJDKLog [main] Destroying ProtocolHandler ["http-nio-8080"]
+2020-03-24 22:06:26,105 INFO org.springframework.boot.autoconfigure.logging.ConditionEvaluationReportLoggingListener [main] 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2020-03-24 22:06:26,106 WARN org.springframework.beans.factory.support.DisposableBeanAdapter [main] Invocation of destroy method failed on bean with name 'tomcatMetricsBinder': java.lang.NullPointerException
+2020-03-24 22:06:26,107 INFO org.springframework.scheduling.concurrent.ExecutorConfigurationSupport [main] Shutting down ExecutorService 'applicationTaskExecutor'
+2020-03-24 22:06:26,111 ERROR org.springframework.boot.diagnostics.LoggingFailureAnalysisReporter [main] 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Web server failed to start. Port 8080 was already in use.
+
+Action:
+
+Identify and stop the process that's listening on port 8080 or configure this application to listen on another port.
+

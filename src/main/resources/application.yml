@@ -1,0 +1,6 @@
+#spring:
+#  application:
+#    name: limits-service
+#  cloud:
+#    config:
+#      uri: https://github.com/saurav2502/cloud-config-server.git
