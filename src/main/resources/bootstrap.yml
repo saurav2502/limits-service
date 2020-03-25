@@ -1,0 +1,9 @@
+spring:
+  application:
+    name: limits-service-dev
+  cloud:
+    config:
+      uri: http://localhost:8888/
+  profiles:
+    active: dev
+    lavel: developement
